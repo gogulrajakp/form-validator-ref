@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Styles/normalize.css">
+  <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create an account</h1>
+    <form action="#" class="form" id="form">
+      <div class="form-control">
+        <label for="username">User Name</label>
+        <input type="text" name="username" id="username" placeholder="Enter Username">
+        <small>Username is required.</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email ID</label>
+        <input type="text" name="email" id="email" placeholder="Enter Email ID">
+        <small>Email ID is required.</small>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password">
+        <small>Password is required.</small>
+      </div>
+      <div class="form-control">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+        <small>Confirm Password is required.</small>
+      </div>
+      <button type="submit">Create Account</button>
+    </form>
+  </div>
+  <script src="./Scripts/script.js"></script>
+</body>
+</html>
