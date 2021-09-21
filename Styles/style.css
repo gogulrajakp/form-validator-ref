@@ -1,11 +1,14 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300;400;500;700&display=swap');
 
+/* Global */
 * , *::after , *::before{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Root Colors */
 :root{
   --c-white: #ffffff;
   --c-dark: #1d1b1b;
@@ -107,6 +110,7 @@ input[type="text"],[type="password"], textarea{
   visibility: visible;
 }
 
+/* Button Style */
 button{
   cursor: pointer;
   background-color: var(--c-dark);
